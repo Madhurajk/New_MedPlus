@@ -23,10 +23,10 @@ const Login = ({ navigation }) => {
                         Hi Welcome Back ! 👋
                     </Text>
 
-                    <Text style={{
+                    {/* <Text style={{
                         fontSize: 16,
                         color: COLORS.black
-                    }}>Hello again you have been missed!</Text>
+                    }}>Hello again you have been missed!</Text> */}
                 </View>
 
                 <View style={{ marginBottom: 12 }}>
@@ -119,6 +119,7 @@ const Login = ({ navigation }) => {
                 <Button
                     title="Login"
                     filled
+                    onPress={() => navigation.navigate("Home")}
                     style={{
                         marginTop: 18,
                         marginBottom: 4,

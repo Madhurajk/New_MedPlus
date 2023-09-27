@@ -22,10 +22,12 @@ const Signup = ({ navigation }) => {
                         Create Account
                     </Text>
 
-                    <Text style={{
+                    {/* <Text style={{
                         fontSize: 16,
                         color: COLORS.black
-                    }}>Connect with your friend today!</Text>
+                    }}>Connect with your friend today!</Text> */}
+
+
                 </View>
 
                 <View style={{ marginBottom: 12 }}>
