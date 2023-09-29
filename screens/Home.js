@@ -6,7 +6,7 @@ import COLORS from '../constants/colors';
 import { MapPinIcon } from 'react-native-heroicons/solid'
 import { BellIcon } from 'react-native-heroicons/outline'
 import Categories from '../components/Categories';
-
+import SideIcon from '../components/SideIcon';
 
 const {width, height} = Dimensions.get('window');
 
@@ -58,10 +58,9 @@ const Home = () => {
           <Categories />
         </View>
 
-        {/* sort categories */}
-        {/* <View className="mb-4">
-          <SortCategories />
-        </View> */}
+          <View>
+          <SideIcon />
+          </View>
 
         {/* destinations */}
         {/* <View>
