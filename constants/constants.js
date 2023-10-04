@@ -61,7 +61,7 @@ export const destinationData = [
         price: 1200,
         shortDescription: "Osaka Castle is a Japanese castle in Chūō-ku, Osaka, Japan. The castle is one of Japan's most famous landmarks.",
         longDescription: "Osaka Castle is a Japanese castle in Chūō-ku, Osaka, Japan. The castle is one of Japan's most famous landmarks and it played a major role in the unification of Japan during the sixteenth century of the Azuchi-Momoyama period.",
-        image: require('../assets/hero2.jpg')
+        image: require('../assets/Phar.jpg')
     },
     {
         title: 'Island Itsukushima Shrine',
