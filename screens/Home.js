@@ -6,7 +6,10 @@ import COLORS from '../constants/colors';
 import { MapPinIcon } from 'react-native-heroicons/solid'
 import { BellIcon } from 'react-native-heroicons/outline'
 import Categories from '../components/Categories';
-import SideIcon from '../components/SideIcon';
+import SlideBoxImage from '../components/SlideBoxImages';
+import SideIconMenus from '../components/SideIconMenus';
+import MenuIcons from '../components/MenuIcons';
+
 
 const {width, height} = Dimensions.get('window');
 
@@ -51,6 +54,15 @@ const Home = () => {
           </View>
         </View>
 
+        <View>
+          <SlideBoxImage />
+        </View>
+
+        {/* <View>
+          <SideIconMenus />
+        </View> */}
+
+
     <Text>{"\n"}</Text>
 
        {/* categories */}
@@ -58,9 +70,14 @@ const Home = () => {
           <Categories />
         </View>
 
+
+       {/* side view */}
+
           <View>
-          <SideIcon />
-          </View>
+          <MenuIcons />
+          </View> 
+
+        
 
         {/* destinations */}
         {/* <View>
